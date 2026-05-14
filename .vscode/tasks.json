@@ -1,0 +1,12 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Live Server Auto Start",
+      "command": "${command:liveserver.goLive}",
+      "runOptions": {
+        "runOn": "folderOpen"
+      }
+    }
+  ]
+}
